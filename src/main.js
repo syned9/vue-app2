@@ -9,7 +9,8 @@ new Vue({
   data() {
     return {
             username: "syned",
-            password: "password"
+            password: "password",
+            cryptomonnaie: ""
     }
 },
   router,

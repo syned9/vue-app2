@@ -24,7 +24,6 @@
                     if(this.input.username == this.$root.username && this.input.password == this.$root.password) {
                         this.$emit("authenticated", true);
                         this.$router.replace({ name: "secure" });
-                        this.$emit("identifiant", this.input.username);
                     } else {
                         console.log("The username and / or password is incorrect");
                     }

@@ -4,6 +4,7 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
+      <router-link to="/cryptomonnaie">Cryptomonnaie</router-link> |
       <router-link v-if="authenticated" to="/login" v-on:click.native="logout()" replace>Déconnexion</router-link>
     </div>
     <router-view @authenticated="setAuthenticated" />

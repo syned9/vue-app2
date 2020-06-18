@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 //import Home from "../views/Home.vue";
 import LoginComponent from "../views/login.vue";
 import SecureComponent from "../views/secure.vue";
+import CryptomonnaieComponent from "../views/cryptomonnaie.vue";
 
 Vue.use(VueRouter);
 
@@ -36,6 +37,11 @@ const routes = [
     path: "/secure",
     name: "secure",
     component: SecureComponent
+  },
+  {
+    path: "/cryptomonnaie",
+    name: "cryptomonnaie",
+    component: CryptomonnaieComponent
   }
   ]
 
