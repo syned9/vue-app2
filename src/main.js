@@ -6,6 +6,12 @@ import router from "./router";
 Vue.config.productionTip = false;
 
 new Vue({
+  data() {
+    return {
+            username: "syned",
+            password: "password"
+    }
+},
   router,
   render: h => h(App)
 }).$mount("#app");
